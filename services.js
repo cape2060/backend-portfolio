@@ -15,7 +15,7 @@ const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
 const PRIVATE_KEY = process.env.EMAILJS_PRIVATE_KEY; // optional
 
 app.use(cors({
-    origin: ['https://yourdomain.com', 'http://localhost:3000', 'http://127.0.0.1:3000'], // add your frontend domain here
+    origin: ['https://www.prajinm.com.np','https://prajinm.com.np', 'http://localhost:3000', 'http://127.0.0.1:3000'], // add your frontend domain here
 }));
 app.use(bodyParser.json());
 
